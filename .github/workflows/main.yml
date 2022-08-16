@@ -25,13 +25,13 @@ jobs:
       - name: Build
         run: hugo
         
-      - name: FTP-Deploy-Action
-        uses: SamKirkland/FTP-Deploy-Action@2.0.0
-        env:
-          FTP_SERVER: ${{ secrets.FTP_SERVER }}
-          FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
-          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
-          LOCAL_DIR: public
-          METHOD: sftp
-          PORT: 22
-          ARGS: --delete
+      - name: Deploy file
+        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
+        with:
+            username: ${{ secrets.FTP_USERNAME }}
+            server: ${{ secrets.FTP_SERVER }}
+            port: 22
+            local_path: './public/*'
+            remote_path: '/'
+            sftp_only: true
+            password: ${{ secrets.FTP_PASSWORD }}
