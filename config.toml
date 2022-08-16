@@ -9,7 +9,7 @@ defaultContentLanguage = "de-de"
 theme = "hugo-scroll"
 
 # The "title" of your website
-title = "Photobox"
+title = "Photobox - Hochschulgruppe für Fotografie"
 
 [params]
     # A "copyright"-line to be added at the bottom of the page.
@@ -17,7 +17,7 @@ title = "Photobox"
      copyright = "[Datenschutz](/datenschutz#datenschutzerklärung)&emsp;[Impressum](/datenschutz#impressum) "
 
     # The "description" of your website. This is used in the meta data of your generated html.
-    description = "Hochschulgruppe für Photografie"
+    description = "Photobox ist eine Hochschulgruppe am KIT in Karlsruhe. Wir machen alles rund ums Thema Fotografie."
 
     # The path to your "favicon". This should be a square (at least 32px x 32px) png-file.
     favicon = "images/Photobox_favicon.png"

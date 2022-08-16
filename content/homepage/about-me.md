@@ -6,7 +6,7 @@ header_menu: true
 
 
 
-##### Die Hochsulgruppe für Photografie am KIT
+##### Die Hochschulgruppe für Photografie am KIT
 
 ![](images/group_picture.jpg)
 
