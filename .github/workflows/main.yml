@@ -28,8 +28,8 @@ jobs:
       - name: Deploy
         uses: SamKirkland/FTP-Deploy-Action@4.3.0
         with:
-          server: ${{ secrets.ftp_server }}
-          username: ${{ secrets.ftp_username }}
+          server: ssh.strato.de
+          username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORDS }}
           port: 22
           protocol: ftps
