@@ -1,0 +1,93 @@
+<!-- A partial to be overwritten by the user.
+     Its content will appear before the closing </head>-tag -->
+
+<!-- Custom CSS via inline styles
+     You may use this template to add custom CSS to your site like so: -->
+
+ <style>
+     /* Links */
+     a:hover {
+         color: #42c4ed;
+     }
+
+     /* Header Buttons on Startpage */
+     a.btn {
+         color: white;
+          background-color: #2d85a1;
+     }
+     a.btn:hover {
+          background-color: #277189;
+     }
+
+     /* Scroll Menu on Startpage */
+     a.fn-item.active {
+          color: #42c4ed;
+     }
+     a.fn-item:hover {
+          color: #2d85a1;
+     }
+
+     /* Content / Sections */
+     .post-holder.odd {
+          background: #2d85a1;
+          color: white;
+     }
+     .post-holder {
+          background: #f2efe8;
+     }
+     body {
+          color: #3A4145;
+     }
+
+     /* Footer */
+     .site-footer {
+          color: #BBC7CC;
+          background-color: #22343A;
+     
+     }
+
+     #site-head {
+          position: relative;
+          display: table;
+          width: 100%;
+          height: 100%;
+          margin-bottom: 0rem;
+          text-align: center;
+          color: #fff;
+          background: #f2efe8 no-repeat center center;
+          background-size: cover;
+     }
+</style> 
+
+<!-- Custom CSS via "custom.css"-file
+     If you would rather place your custom CSS into
+     a separate file, create a "custom.css" in your
+     local "static/css"-directory. Then add a <link>-tag
+     referencing your "custom.css" like so: -->
+
+<!-- <link rel="stylesheet" href='{{ "css/custom.css" | absURL }}'> -->
+
+<!-- Custom CSS: Color Codes
+     You may checkout https://htmlcolorcodes.com/ to get those
+     weird color codes (like "#22343A") ;-). -->
+
+<!-- Custom link-tags for different icons
+     Generated via https://favicon.io/favicon-generator/ -->
+
+<link
+  rel="apple-touch-icon"
+  sizes="180x180"
+  href="{{ "images/apple-touch-icon.png" | absURL }}"
+/>
+<link
+  rel="icon"
+  type="image/png"
+  sizes="32x32"
+  href="{{ "images/favicon-32x32.png" | absURL }}"
+/>
+<link
+  rel="icon"
+  type="image/png"
+  sizes="16x16"
+  href="{{ "images/favicon-16x16.png" | absURL }}"
+/>
