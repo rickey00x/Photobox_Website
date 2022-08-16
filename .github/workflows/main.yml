@@ -30,8 +30,8 @@ jobs:
         with:
             username: ${{ secrets.FTP_USERNAME }}
             server: ${{ secrets.FTP_SERVER }}
-            port: 22
+            password: ${{ secrets.FTP_PASSWORD }}
             local_path: './public/*'
             remote_path: '/'
             sftp_only: true
-            password: ${{ secrets.FTP_PASSWORD }}
+            
