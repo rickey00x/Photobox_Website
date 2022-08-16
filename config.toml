@@ -1,4 +1,4 @@
-baseURL = "https://photobox-ka.de/"
+baseURL = "http://photobox-ka.de/"
 
 # This is a "one page"-website, so we do not need these kinds of pages...
 disableKinds = ["section", "taxonomy", "term", "RSS", "robotsTXT"]
@@ -26,7 +26,7 @@ title = "Photobox"
     # services like Twitter or Slack want to generate a preview of a link to your site.
     # See https://gohugo.io/templates/internal#twitter-cards and
     # https://gohugo.io/templates/internal#open-graph.
-    #images = ["images/cover-image.jpg"]
+    images = ["images/cover-image.jpg"]
 
     # Another "title" :-). This one is used as the site_name on the Hugo's internal
     # opengraph structured data template.
